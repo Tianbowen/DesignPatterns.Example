@@ -23,9 +23,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Singleton", "dofactory\Crea
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Structural Patterns", "Structural Patterns", "{BC733EB0-FC60-4E92-A6F2-59F9D238021C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adapter", "dofactory\Structural Patterns\Adapter\Adapter.csproj", "{832E01D4-F93B-4AB7-A5B3-150449455137}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Adapter", "dofactory\Structural Patterns\Adapter\Adapter.csproj", "{832E01D4-F93B-4AB7-A5B3-150449455137}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bridge", "dofactory\Structural Patterns\Bridge\Bridge.csproj", "{22F80797-24FF-4802-A251-A7050B94B2DD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bridge", "dofactory\Structural Patterns\Bridge\Bridge.csproj", "{22F80797-24FF-4802-A251-A7050B94B2DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Composite", "dofactory\Structural Patterns\Composite\Composite.csproj", "{EE3EDB56-F514-433B-BB1C-235A14F2195D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -145,6 +147,18 @@ Global
 		{22F80797-24FF-4802-A251-A7050B94B2DD}.Release|x64.Build.0 = Release|Any CPU
 		{22F80797-24FF-4802-A251-A7050B94B2DD}.Release|x86.ActiveCfg = Release|Any CPU
 		{22F80797-24FF-4802-A251-A7050B94B2DD}.Release|x86.Build.0 = Release|Any CPU
+		{EE3EDB56-F514-433B-BB1C-235A14F2195D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE3EDB56-F514-433B-BB1C-235A14F2195D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE3EDB56-F514-433B-BB1C-235A14F2195D}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{EE3EDB56-F514-433B-BB1C-235A14F2195D}.Debug|x64.Build.0 = Debug|Any CPU
+		{EE3EDB56-F514-433B-BB1C-235A14F2195D}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{EE3EDB56-F514-433B-BB1C-235A14F2195D}.Debug|x86.Build.0 = Debug|Any CPU
+		{EE3EDB56-F514-433B-BB1C-235A14F2195D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE3EDB56-F514-433B-BB1C-235A14F2195D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE3EDB56-F514-433B-BB1C-235A14F2195D}.Release|x64.ActiveCfg = Release|Any CPU
+		{EE3EDB56-F514-433B-BB1C-235A14F2195D}.Release|x64.Build.0 = Release|Any CPU
+		{EE3EDB56-F514-433B-BB1C-235A14F2195D}.Release|x86.ActiveCfg = Release|Any CPU
+		{EE3EDB56-F514-433B-BB1C-235A14F2195D}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -159,6 +173,7 @@ Global
 		{BC733EB0-FC60-4E92-A6F2-59F9D238021C} = {E2C2588F-0712-441D-B988-F312904B39F2}
 		{832E01D4-F93B-4AB7-A5B3-150449455137} = {BC733EB0-FC60-4E92-A6F2-59F9D238021C}
 		{22F80797-24FF-4802-A251-A7050B94B2DD} = {BC733EB0-FC60-4E92-A6F2-59F9D238021C}
+		{EE3EDB56-F514-433B-BB1C-235A14F2195D} = {BC733EB0-FC60-4E92-A6F2-59F9D238021C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E4AC9C37-FFA4-41D0-AF5E-558953B9F46E}
