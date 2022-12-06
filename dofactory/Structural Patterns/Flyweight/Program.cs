@@ -16,10 +16,11 @@ namespace Flyweight
                 3. 非共享具体享元(UnsharedConcreteFlyweight)
                     * 并非所有的享元子类都需要共享。Flyweight收
                 4. 享元工厂(FlyweightFactory)
-                    * 
-                    * 
+                    * 创建和管理享元对象
+                    * 确保正确共享享元。当客户端请求享元时，享元工厂对象将现有实例赋值或创建一个实例(如果不存在)
                 5. 客户端
-                    * 
+                    * 维护对享元的引用
+                    * 计算或存储享元的外部状态
              */
 
             // Structural code 
